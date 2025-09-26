@@ -1,14 +1,15 @@
-text-area-container {
+.text-area-container {
     display: flex;
     justify-content: center;  /* horizontal center */
     align-items: center;      /* vertical center */
     height: 100vh;            /* full viewport height */
     padding: 20px;
     box-sizing: border-box;
+    width: 120em;
   }
   
   /* Responsive textarea */
-textarea {
+.text-area {
     width: 80%;             /* dynamic width based on parent */
     max-width: 600px;       /* optional max width */
     min-width: 200px;       /* optional min width */
@@ -16,4 +17,6 @@ textarea {
     resize: vertical;       /* allow only vertical resize */
     padding: 10px;
     font-size: 16px;
+    padding-top: 20px;
   }
+
