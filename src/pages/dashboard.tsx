@@ -1,8 +1,14 @@
+import Sidebar from "../components/sidebar";
+
 function Dashboard() {
     return (
-        <h1> This is your dashboard</h1>
+        <div className="dashboard-layout">
+            <Sidebar />
+            <div className="dashboard-content">
+                <h1>This is your dashboard</h1>
+            </div>
+        </div>
     )
-
 }
 
 export default Dashboard
