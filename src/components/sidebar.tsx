@@ -6,13 +6,15 @@ import {
 } from 'react-icons/md';
 import '../styles/sidebar.css';
 
+
+
 function Sidebar() {
     const location = useLocation();
 
     const menuItems = [
         { path: '/', icon: MdHome, label: 'Home' },
-        { path: './sidebar-pages/direct-messages', icon: MdMessage, label: 'DMs' },
-        { path: './sidebar-pages/activity', icon: MdTimeline, label: 'Activity' }
+        { path: '/sidebar-pages/direct-messages', icon: MdMessage, label: 'DMs' },
+        { path: '/sidebar-pages/activity', icon: MdTimeline, label: 'Activity' }
     ];
 
     return (

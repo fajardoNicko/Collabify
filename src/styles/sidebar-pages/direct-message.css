@@ -1,0 +1,19 @@
+text-area-container {
+    display: flex;
+    justify-content: center;  /* horizontal center */
+    align-items: center;      /* vertical center */
+    height: 100vh;            /* full viewport height */
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  /* Responsive textarea */
+textarea {
+    width: 80%;             /* dynamic width based on parent */
+    max-width: 600px;       /* optional max width */
+    min-width: 200px;       /* optional min width */
+    box-sizing: border-box; /* include padding/border in width */
+    resize: vertical;       /* allow only vertical resize */
+    padding: 10px;
+    font-size: 16px;
+  }
